@@ -1,0 +1,4 @@
+zone "joao.asa.br" { // Change to desired zone
+	type master;
+    file "/etc/bind/joao.asa.br";
+};
