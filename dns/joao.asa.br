@@ -3,13 +3,13 @@
 ;
 $TTL	604800
 @	IN	SOA	joao.asa.br. root.joao.asa.br. (
-			      3		; Serial
+			2024071621  ; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
 			 604800 )	; Negative Cache TTL
 ;
 @   IN  NS  ns.joao.asa.br.
-@   IN  A   10.25.2.207
-ns  IN  A   10.25.2.207
+@   IN  A   10.0.0.126
+ns  IN  A   10.0.0.126
 www IN  CNAME   ns
